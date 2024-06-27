@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS practise</title>
+</head>
+<body>
+    
+    <h1  id="clicked"></h1>
+<button onclick=" Buttonclick()" >click</button>
+
+<p id="change" onclick="nochange()">now word will change</p>
+
+    <script>
+         let a="lakasa", b= "maharjan", c= a + b
+         document.write(` "my name is" ${c} <br>`)
+
+
+         
+         function sumNumber(q,w){
+         document.write(`"The sum is" ${q+w}  <br>`)
+         }
+         sumNumber(2,2)
+
+         
+    let r = 1
+    if ( r>0)
+    {
+      document.write("Number is positive <br>")  
+    }
+    else if( r ==0) {
+        document.write("Number is neutral <br>")  
+    }
+    else{
+        document.write("Number is negative <br>")  
+    }
+
+
+   
+function Buttonclick(){
+    document.getElementById("clicked").innerHTML
+    alert("YOU HAVE CLICKED BUTTON , okay !!!")
+}
+
+function nochange(){
+document.getElementById("change").innerHTML="HELLO WORLD !"
+}
+
+
+let n= Number (prompt("Enter value of n"))
+let sum =0
+for(f=1;f<=n;f++){
+       
+        sum+=f
+       }
+    document.write(`"the sum is " ${sum}`)
+   
+    </script>
+    
+    
+
+
+</body>
+</html>
