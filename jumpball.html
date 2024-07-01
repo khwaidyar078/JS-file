@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football</title>
+    <style>
+    *{
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .box{
+        background: #000;
+        height: 600px;
+        width: 100%;
+    }
+    img {
+        
+        animation-name: anim1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+    }
+    @keyframes anim1 {
+       0%{
+      
+       } 
+       20%{
+        transform: translate(100px,100px);
+       }
+       40%{
+     transform:translate(200px,200px) ;
+ 
+       }
+         60%{
+     transform:translate(200px,200px) 
+    rotate(180deg);
+    transition: 2s;
+        }
+        80%{
+      transform:translate(200px,200px) ;
+        }
+        100%{
+transform: translate(100px,100px);
+        }
+    }
+    
+    
+        </style>
+</head>
+<body>
+ <div class="box"> <img src="./bgfootball.png" alt=""></div>
+        
+  
+</body>
+</html>
