@@ -19,3 +19,17 @@ function fnamevalidate(){
         return true
     }
 }
+function lnamevalidate(){
+    let input = document.getElementById('lname').value
+    if (input == ' ') {
+        displaymsg('Last name is mandatory', 'lnameMsg', 'red')
+    }
+    else if (input.length < 3) {
+        displaymsg('Last name should be more than 3 characters', 'lnameMsg', 'red')
+        return false
+    }
+    else {
+        displaymsg('Last name is valid', 'lnameMsg', 'green')
+        return true
+    }
+}
