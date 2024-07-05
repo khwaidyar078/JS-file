@@ -67,3 +67,34 @@ function pnamevalidate() {
         return true
     }
 }
+function Cnamevalidate() {
+    let password = document.getElementById('pname').value
+    let Cpassword =document.getElementById('Cname').value
+   
+    if(Cpassword==''){
+    displaymsg('confirm password is mandatory','CnameMsg','red')
+    return false
+    }
+
+    else if(password!=Cpassword){
+displaymsg('password and confirm password must be same','CnameMsg','red')
+return false
+
+    }
+    else{
+        displaymsg('all okay','CnameMsg','green')
+        return true
+    }
+}
+
+
+
+function submitform(){
+    if ( fnamevalidate()&&lnamevalidate()&&enamevalidate()&&pnamevalidate()&&Cnamevalidate()){
+        return true
+    }
+    {
+        return false
+    }
+}
+
