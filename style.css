@@ -1,66 +1,61 @@
 .project{
     height: 100vh;
-    
 }
 header{
-    background:black;
-    height: 100vh;
+    background: #000;
+  height: 100vh;
+
 }
 header .mydetails .img{
     height: 150px;
     width: 150px;
-    border-radius: 50%;
-    margin:5% auto;
+    border-radius: 50% ;
+    margin: 5% auto;
 }
-
 header .mydetails .img img{
     height: 100%;
     width: 100%;
     border-radius: 50%;
+    
 }
-
 header nav ul li{
     list-style: none;
-    color: rgb(148, 147, 147);
-
-   font-size: 16px;
-   
+    color: rgb(148,147,147);
+    font-size: 16px;
 }
 header .mydetails ul li:hover{
-    color: rgb(25, 255, 178);
+    color: rgb(25,255,178);
 }
 header .mydetails ul li:hover i{
-    color: rgb(26, 66, 243);
+    color:rgb(26,66,243)
+
 }
 main{
-   overflow: scroll;
+ overflow:scroll;
 }
 .banner{
-    background: url("https://th.bing.com/th/id/OIF.lTiEFdkYVadZMSv0bidnZg?rs=1&pid=ImgDetMain") no-repeat;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzMs9yt-NoBu4ZjfUIV-YNR7DjBYsaqOphgQ&s) no-repeat;
     height: 100vh;
     width: 100%;
     background-size: 100% 100%;
     margin-top: auto;
     padding: 1px;
-
-
 }
 .banner h1{
-  margin-top:20% ;
-  margin-left: 10px ;
-  font-size: 60px;
-
-    
+    margin-top: 20%;
+    margin-left: 10px;
+    font-size: 60px;
 }
 .about h1{
     color: #000;
     font-size: 30px;
+
 }
 .about hr{
     color: aquamarine;
 }
 .about p{
-    color: black;
+    color: #000;
 }
 .about h2{
     color: black;
@@ -70,18 +65,14 @@ main{
 }
 .about h3{
     color: black;
-
 }
-main .about  .info{
+main .about .info{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: #000;
 }
-.skills h1{
-    color: black;
+.skills{
+    color: #000;
     font-size: 30px;
 }
-
-
-
